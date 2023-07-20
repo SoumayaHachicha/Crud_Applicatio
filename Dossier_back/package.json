@@ -1,0 +1,23 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "Une application de gestion de produit convivale qui vous permet d'enregistrer, afficher, modifier, et supprimer facilement des produits.Gérez efficacement votre inventaire en saisissant les informations essentielles telles que le nom du produit, le prix unitaire et la quantité disponible.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soumaya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.1.6",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5"
+  }
+}
